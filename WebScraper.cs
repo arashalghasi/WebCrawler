@@ -148,7 +148,7 @@ public class WebScraper : IWebScraper
                     Alcohol = matches[4].Value.Trim()
                 };
                 #endregion
-                Log.LogInformation($"The alimento numero -->{count}<-- loaded completely");
+                Log.LogInformation($"The Food Number -->{count}<-- loaded completely");
                 count++;
             });
             var option = new JsonSerializerOptions { WriteIndented = true, AllowTrailingCommas = true };
