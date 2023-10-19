@@ -1,4 +1,4 @@
-﻿﻿![Interpreter](webScraping.png)
+﻿﻿![WebScrapperBanner](webScraping.png)
 # Web Scraper Case Study (C#/.NET)
 This web scraper project, developed in C# and .NET, has a dual-purpose: to provide a hands-on learning experience for the syntax of C# and XPath and to demonstrate the implementation of configuration and logging in a C# console application.
 
@@ -66,7 +66,7 @@ __Copy to Output Directroy -> Copy always__
 
 ## Configuration
 
-```json
+```javascript
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
