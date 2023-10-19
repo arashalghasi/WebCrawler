@@ -10,8 +10,9 @@ This web scraper project, developed in C# and .NET, has a dual-purpose: to provi
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Configuration](#configuration)
+- [Result](#result)
+- [Usage](#usage)
 - [Disclaimer](#disclaimer)
 
 ## Introduction
@@ -93,6 +94,26 @@ __Copy to Output Directroy -> Copy always__
 </Project>
 ```
 
+
+## Result
+
+```sh
+[19:23:38 INF] Application Starting!
+Please Insert the full path of the folder that you want to save the result: (Like : C:\Users\arash\Desktop\SimpleWebScraper\)
+C:\Users\arash\Desktop\
+Please Insert completely the name of json file that you want to save the result: (like : Result.json)
+res.json
+[19:23:53 INF] The Html document loaded Perfectly.
+[19:23:53 INF] The Food Number -->1<-- loaded completely
+[19:23:54 INF] The Food Number -->2<-- loaded completely
+[19:23:54 INF] The Food Number -->3<-- loaded completely
+[19:23:54 INF] The Food Number -->4<-- loaded completely
+[19:23:54 INF] The Food Number -->4<-- loaded completely
+[19:23:54 INF] The Food Number -->6<-- loaded completely
+[19:23:54 INF] The Food Number -->6<-- loaded completely
+[19:23:54 INF] The Food Number -->8<-- loaded completely
+...
+```
 
 ## Usage
 For students and educators in computer science and programming-related disciplines. It can be employed for learning and teaching purposes, helping students grasp the intricate concepts of programming language design and interpretation.
